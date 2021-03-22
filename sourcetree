@@ -8,7 +8,7 @@ mulle-sourcetree -N add --nodetype '${OPENSSL_NODETYPE:-tar}' \
                         --branch '${OPENSSL_BRANCH}' \
                         --tag '${OPENSSL_TAG:-OpenSSL_1_1_1j}' \
                         'openssl'
-mulle-sourcetree -N add --nodetype 'none' \ 
+mulle-sourcetree -N add --nodetype 'none' \
                         --marks 'no-all-load,no-build,no-cmakeinherit,no-delete,no-dependency,no-fs,no-import,no-share,no-update,only-platform-linux' \
                         --userinfo 'include=openssl/ssl.h' \
                         'ssl'
