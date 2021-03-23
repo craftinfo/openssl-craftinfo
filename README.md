@@ -1,5 +1,7 @@
 # openssl-craftinfo
 
+TODO: this craftinfo purports to be crossplatform, but it really only works for x86_64 macOS...
+
 #### craftinfo to build the openssl library as a mulle-sde dependency
 
 This craftinfo should be fetched automatically, if the name of the dependency is openssl.
